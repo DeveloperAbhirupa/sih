@@ -1,0 +1,111 @@
+body{
+    background-color: #0086c5 !important;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+}
+
+
+
+@keyframes mymove {
+    50% {background-color: #00e6d1;}
+}
+
+
+.nav-link, .nav-item{
+    /*padding :5px; !important;*/
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 30px; !important;
+    font-size: 1.05em;
+    color: black; !important;
+}
+.navbar{
+    background-color: white !important;
+}
+
+#h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: white;
+    font-size: 55px !important;
+}
+#h2, #h3{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: white;
+    font-size: 20px !important;
+}
+/*.#btn1{*/
+
+    /*border-width:2px;*/
+    /*border-color: #ebde45;*/
+    /*border-radius: 10px;*/
+    /*font-size: 20px;*/
+/*}*/
+#btn1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+    background: none;
+    border-width:10px;
+    border-color: #ebde45;
+    border-radius: 80px  !important;
+    font-size: 60px;
+}
+.button1 {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: transparent;
+    border-radius:35px;
+    border: 5px solid #ebde45;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+}
+.button2{
+    margin-top: 20px;
+    margin-left:15px;
+    background-color: transparent;
+    border-radius:35px;
+    border: 5px solid #ebde45;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+}
+#log{
+    margin-top: 60px;
+    margin-left: -380px;
+    color:white;
+}
+.button1:hover, .button2:hover{
+    background-color: #ebde45;
+    color: #0086c5;
+    transition: 0.8s;
+    cursor: pointer;
+
+}
+.button3{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebde45;
+    border-radius:35px;
+    border:none;
+    font-size:30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left:70px;
+    padding-right:70px;
+    color:white;
+}
+.button3:hover{
+    cursor: pointer;
+    color: #0086c5;
+    transition: 0.8s;
+}
+#i1{
+    position: absolute;
+    right: 0px;
+    height:92.2vh;
+    width: auto;
+}

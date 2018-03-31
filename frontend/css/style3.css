@@ -1,0 +1,6 @@
+body{
+    background-image: url("im2.png") !important;
+    max-width: 100% !important;
+    background-size: cover ;
+    background-attachment: fixed;
+}

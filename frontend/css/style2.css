@@ -1,0 +1,79 @@
+
+body{
+    overflow-y: hidden;
+}
+
+
+.bg{
+background-image: url("im2.png") !important;
+max-width: 100% !important;
+height: 100vh;
+    width: auto;
+background-size: cover ;
+background-attachment: fixed;
+
+}
+
+
+.c2{
+    width:30%;
+    padding:2px;
+
+}
+.c3{
+    font-size: 40px;
+    color: rgba(0, 134, 197);
+    font-family: 'Montserrat', sans-serif;
+    width:80%;
+    padding:2px;
+
+}
+
+
+.main{
+    margin-top: 0px;
+    width:30%;
+    background-color: rgba(0, 134, 197,0.3);
+    border-radius: 30px;
+}
+.input-group{
+    padding:20px;
+}
+.c1{
+    margin-top: 40px;
+}
+
+#i1,#i2{
+
+    background-color: #ebde45;
+    border-radius: 20px;
+    box-shadow: 2px 2px #00a6c5;
+
+}
+
+input{
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    color:floralwhite;
+}
+
+.button1, .button2{
+    box-shadow: 2px 2px grey;
+    color:white;
+    background-color: #00a6c5;
+    border: none;
+    font-size:20px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 10px;
+}
+.button1:hover, .button2:hover{
+    cursor:pointer;
+    color:#ebde45;
+}
+
+#sign{
+    font-family: 'Montserrat', sans-serif;
+    margin-top:60px;
+    color:#00a6c5;
+}
